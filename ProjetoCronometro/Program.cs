@@ -1,6 +1,6 @@
 ﻿StartCronometro();
 
-void StartCronometro()
+static void StartCronometro()
 {
     Console.WriteLine("Cronometro Iniciado");
     int tempo = 10;
@@ -21,5 +21,4 @@ void StartCronometro()
             break;
         }
     }
-
 }

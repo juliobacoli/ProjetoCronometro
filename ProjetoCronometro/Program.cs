@@ -9,7 +9,7 @@ static void StartCronometro()
     while (true)
     {
         Console.Clear();
-        Console.WriteLine(currentTime);
+        Console.WriteLine($"{currentTime} s");
         Thread.Sleep(1000);
 
         currentTime++;
@@ -17,7 +17,7 @@ static void StartCronometro()
         if (currentTime == tempo)
         {
             Console.Clear();
-            Console.WriteLine(currentTime);
+            Console.WriteLine($"{currentTime} segundos");
             break;
         }
     }
